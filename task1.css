@@ -1,0 +1,31 @@
+table{
+    border-color: brown;
+}
+input{
+    background-color: aqua;
+    font-size: 15px;
+    transition:opacity,0.15ms;
+}
+input:hover{
+    opacity:0.7;
+}
+td{
+   text-align: center;
+   border-radius:20% ;
+   padding: 10px; 
+   text-decoration: solid;
+   text-decoration-color: rgb(14, 213, 120);
+   background-color:#00788b72 ;
+   border-color:crimson;
+   font-size:50px;
+   color: firebrick;
+   transition: opacity,0.15hs;
+}
+td:hover{
+    background-color:hotpink;
+    opacity: 0.7;
+}
+td:active{
+    opacity:blue;
+    transition: 10s;
+}
